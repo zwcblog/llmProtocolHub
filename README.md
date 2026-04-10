@@ -88,6 +88,24 @@
 4. 新增资料时先看 [docs/MAINTENANCE.md](docs/MAINTENANCE.md)。
 5. 复制对应模板并补齐官方链接与摘要。
 
+## 在线查看
+
+这个项目已经适配 GitHub Pages 文档站，推荐后续直接通过网页访问。
+
+- 仓库地址：<https://github.com/zwcblog/llmProtocolHub>
+- 预期站点地址：<https://zwcblog.github.io/llmProtocolHub/>
+
+如果 GitHub Pages 尚未生效，请在仓库设置里确认：
+
+- `Settings` → `Pages`
+- Source 使用 **GitHub Actions**
+
+站点构建配置文件：
+
+- `mkdocs.yml`
+- `.github/workflows/deploy-docs.yml`
+- `requirements.txt`
+
 ## 当前状态
 
-当前仓库已完成第一版文档骨架，适合作为后续持续填充官方资料的基础结构。
+当前仓库已完成第一版文档骨架，并已补齐 GitHub Pages 文档站所需配置，适合作为后续持续填充官方资料的基础结构。
