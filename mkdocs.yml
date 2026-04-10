@@ -1,5 +1,5 @@
 site_name: LLM Protocol Hub
-site_description: AI 厂商模型协议官方文档汇总参考手册
+site_description: AI 厂商与协议官方入口导航
 site_url: https://zwcblog.github.io/llmProtocolHub/
 repo_url: https://github.com/zwcblog/llmProtocolHub
 repo_name: zwcblog/llmProtocolHub
@@ -7,17 +7,38 @@ edit_uri: edit/main/docs/
 site_dir: site
 use_directory_urls: true
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   language: zh
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.instant
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.action.edit
 
 markdown_extensions:
   - admonition
@@ -34,6 +55,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
