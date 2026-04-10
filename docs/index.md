@@ -1,41 +1,70 @@
-# 总索引
+# LLM Protocol Hub
 
-这是一个面向 **官方入口** 的导航索引，而不是详细技术手册。
+<div class="lp-hero">
+  <div class="lp-kicker">Documentation directory</div>
+  <h1>Official links for AI platforms and protocols</h1>
+  <p class="lp-subtitle">
+    A quiet index of official websites, docs, API references, SDKs, and changelogs —
+    organized for people who want the source, not the noise.
+  </p>
+</div>
 
-你可以从两条主线进入：
+<div class="lp-actions" markdown>
+[Browse vendors](vendors/README.md){ .md-button .md-button--primary }
+[Browse protocols](protocols/README.md){ .md-button }
+</div>
 
-- **厂商**：按平台查官网、文档、API 与控制台入口
-- **协议**：按规范查官方说明、仓库与参考实现
+## What this site is
 
-## 厂商导航
+This is a curated directory of **official entry points**.
 
-- [厂商总览](vendors/README.md)
-- [OpenAI](vendors/openai/README.md)
-- [Anthropic](vendors/anthropic/README.md)
-- [Google Gemini](vendors/google-gemini/README.md)
-- [xAI](vendors/xai/README.md)
-- [Mistral](vendors/mistral/README.md)
-- [Cohere](vendors/cohere/README.md)
-- [DeepSeek](vendors/deepseek/README.md)
-- [智谱 AI](vendors/zhipu/README.md)
-- [MiniMax](vendors/minimax/README.md)
-- [阿里云百炼](vendors/alibaba-bailian/README.md)
-- [百度千帆](vendors/baidu-qianfan/README.md)
-- [腾讯混元](vendors/tencent-hunyuan/README.md)
-- [火山引擎](vendors/volcengine/README.md)
+Use it to quickly find:
 
-## 协议导航
+- Official website
+- Official documentation
+- API reference
+- SDK / GitHub repository
+- Changelog / release notes
+- Console / platform entry
 
-- [协议总览](protocols/README.md)
-- [OpenAI Compatible API](protocols/openai-compatible/README.md)
-- [Model Context Protocol (MCP)](protocols/mcp/README.md)
-- [Agent2Agent (A2A)](protocols/a2a/README.md)
-- [流式输出格式](protocols/streaming/README.md)
-- [工具调用约定](protocols/tool-calling/README.md)
-- [多模态消息结构](protocols/multimodal/README.md)
+## Start here
 
-## 建议维护方式
+<div class="lp-grid" markdown>
 
-- 每页优先补齐官网与文档首页
-- 其次补 API Reference、SDK、Changelog
-- 尽量少写解释，尽量多给官方入口
+- **Vendors**
+
+  Explore official entry points for OpenAI, Anthropic, Gemini, DeepSeek, Zhipu, Bailian, Qianfan, Hunyuan, and more.
+
+  [Open vendor directory](vendors/README.md)
+
+- **Protocols**
+
+  Explore official references for OpenAI Compatible API, MCP, A2A, streaming, tool calling, and multimodal message structures.
+
+  [Open protocol directory](protocols/README.md)
+
+- **Index**
+
+  Jump through the full table of contents if you already know what you are looking for.
+
+  [Open full index](INDEX.md)
+
+- **Maintenance**
+
+  Keep the site clean, sparse, and useful. Add links first. Add prose only if it truly helps.
+
+  [Open maintenance guide](MAINTENANCE.md)
+
+</div>
+
+## Principles
+
+- Prefer official sources over summaries
+- Prefer links over explanation
+- Prefer clarity over coverage
+- Prefer restraint over decoration
+
+## Project
+
+- GitHub: [zwcblog/llmProtocolHub](https://github.com/zwcblog/llmProtocolHub)
+- Pages: [zwcblog.github.io/llmProtocolHub](https://zwcblog.github.io/llmProtocolHub/)
