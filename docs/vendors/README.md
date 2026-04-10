@@ -1,14 +1,17 @@
-# 厂商总览
+# 厂商卷
 
-这里按厂商整理模型服务平台的官方文档。
+这里收录各家 AI 平台的官方入口。
 
-## 推荐阅读方式
+建议从每一页直接进入：
 
-- 先看官方文档入口与 API 基础地址。
-- 再看请求格式、工具调用、流式协议和错误处理。
-- 最后补 SDK、示例、限流和变更日志。
+- 官网
+- 官方文档
+- API Reference
+- SDK / GitHub
+- Changelog / Release Notes
+- 控制台或平台入口
 
-## 厂商清单
+## 卷内目录
 
 - [OpenAI](openai/README.md)
 - [Anthropic](anthropic/README.md)

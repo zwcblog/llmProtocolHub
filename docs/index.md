@@ -1,70 +1,60 @@
 # LLM Protocol Hub
 
-<div class="lp-hero">
-  <div class="lp-kicker">Documentation directory</div>
-  <h1>Official links for AI platforms and protocols</h1>
-  <p class="lp-subtitle">
-    A quiet index of official websites, docs, API references, SDKs, and changelogs —
-    organized for people who want the source, not the noise.
+<div class="book-title-page">
+  <p class="book-kicker">A field guide to official AI documentation</p>
+  <h1>LLM Protocol Hub</h1>
+  <p class="book-subtitle">
+    一本面向 AI 厂商与协议的官方入口索引。
+    你不会在这里读到冗长解释，只会更快地抵达原始出处。
   </p>
 </div>
 
-<div class="lp-actions" markdown>
-[Browse vendors](vendors/README.md){ .md-button .md-button--primary }
-[Browse protocols](protocols/README.md){ .md-button }
-</div>
+## 序
 
-## What this site is
+这不是一部试图覆盖一切的参考大全。
 
-This is a curated directory of **official entry points**.
+它更像一本安静的目录：把官网、文档、API Reference、SDK、变更日志与平台入口，整理在清晰的位置，方便反复翻阅。
 
-Use it to quickly find:
+## 目录
 
-- Official website
-- Official documentation
-- API reference
-- SDK / GitHub repository
-- Changelog / release notes
-- Console / platform entry
+<div class="book-grid" markdown>
 
-## Start here
+- **厂商**
 
-<div class="lp-grid" markdown>
+  按平台查找官方入口。
+  从 OpenAI、Anthropic、Gemini，到 DeepSeek、智谱、百炼、千帆、混元与更多平台。
 
-- **Vendors**
+  [翻到厂商卷](vendors/README.md)
 
-  Explore official entry points for OpenAI, Anthropic, Gemini, DeepSeek, Zhipu, Bailian, Qianfan, Hunyuan, and more.
+- **协议**
 
-  [Open vendor directory](vendors/README.md)
+  按规范查找官方说明。
+  包括 OpenAI Compatible API、MCP、A2A、流式输出、工具调用与多模态结构。
 
-- **Protocols**
+  [翻到协议卷](protocols/README.md)
 
-  Explore official references for OpenAI Compatible API, MCP, A2A, streaming, tool calling, and multimodal message structures.
+- **总索引**
 
-  [Open protocol directory](protocols/README.md)
+  如果你已经知道目标，可以直接从完整目录进入。
 
-- **Index**
+  [查看总索引](INDEX.md)
 
-  Jump through the full table of contents if you already know what you are looking for.
+- **维护规范**
 
-  [Open full index](INDEX.md)
+  这本小书如何保持克制、耐读、不过度膨胀。
 
-- **Maintenance**
-
-  Keep the site clean, sparse, and useful. Add links first. Add prose only if it truly helps.
-
-  [Open maintenance guide](MAINTENANCE.md)
+  [查看维护规范](MAINTENANCE.md)
 
 </div>
 
-## Principles
+## 编写原则
 
-- Prefer official sources over summaries
-- Prefer links over explanation
-- Prefer clarity over coverage
-- Prefer restraint over decoration
+- 只收录官方来源
+- 以链接为主，以解释为辅
+- 保持章节简短，避免堆砌
+- 让页面像目录，而不是像手册正文
 
-## Project
+## 馆藏位置
 
-- GitHub: [zwcblog/llmProtocolHub](https://github.com/zwcblog/llmProtocolHub)
-- Pages: [zwcblog.github.io/llmProtocolHub](https://zwcblog.github.io/llmProtocolHub/)
+- GitHub：[zwcblog/llmProtocolHub](https://github.com/zwcblog/llmProtocolHub)
+- Pages：[zwcblog.github.io/llmProtocolHub](https://zwcblog.github.io/llmProtocolHub/)
