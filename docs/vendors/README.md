@@ -29,13 +29,13 @@
   Developer API 与 Vertex AI 双轨并行，资料入口最容易混淆。
 
 - [xAI](xai/README.md)  
-  仍待补充，重点关注其原生 API 与兼容层边界。
+  需要重点区分 Grok 的产品感知与 xAI 平台 API 的真实边界。
 
 - [Mistral](mistral/README.md)  
-  仍待补充，重点关注平台能力与部署形态。
+  平台 API、开源模型与企业部署语境并存，不能只按单一聊天接口理解。
 
 - [Cohere](cohere/README.md)  
-  仍待补充，重点关注文本、Embedding 与 Rerank 结构。
+  除了聊天模型，更值得关注其 Embedding 与 Rerank 能力定位。
 
 - [DeepSeek](deepseek/README.md)  
   接入门槛低，但“接口兼容”不等于“能力等价”。
@@ -44,16 +44,16 @@
   国内平台中的完整玩家，重点看原生平台组织而非简单类比。
 
 - [MiniMax](minimax/README.md)  
-  仍待补充，重点关注多媒体与模型能力分布。
+  不宜只用文本模型视角理解，其语音与视频能力同样重要。
 
 - [阿里云百炼](alibaba-bailian/README.md)  
   平台层与接口层并存，关键在于分清百炼与 DashScope 的关系。
 
 - [百度千帆](baidu-qianfan/README.md)  
-  仍待补充，重点关注平台接入与模型能力边界。
+  模型 API 与云平台组织并存，企业化接入边界值得优先确认。
 
 - [腾讯混元](tencent-hunyuan/README.md)  
-  仍待补充，重点关注云平台组织与工具调用支持。
+  模型能力与腾讯云平台接入条件耦合较深。
 
 - [火山引擎](volcengine/README.md)  
-  仍待补充，重点关注豆包 / 方舟相关入口与兼容接口。
+  豆包、方舟、控制台与兼容接口之间的层次要先理清。

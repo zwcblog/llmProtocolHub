@@ -10,6 +10,7 @@
 - [百度千帆](../vendors/baidu-qianfan/README.md)
 - [腾讯混元](../vendors/tencent-hunyuan/README.md)
 - [火山引擎](../vendors/volcengine/README.md)
+- [xAI](../vendors/xai/README.md)
 
 > 兼容接口通常足以让应用先跑起来，但真正的差异常常暴露在工具调用、流式、结构化输出与多模态输入层。
 
@@ -20,6 +21,7 @@
 - [Google Gemini](../vendors/google-gemini/README.md)
 - [智谱 AI](../vendors/zhipu/README.md)
 - [阿里云百炼](../vendors/alibaba-bailian/README.md)
+- [xAI](../vendors/xai/README.md)
 - [工具调用约定](../protocols/tool-calling/README.md)
 
 > 字段名相似并不代表调用语义等价；执行轮次、结果回填与流式事件往往更容易出现不兼容。
@@ -32,6 +34,7 @@
 - [DeepSeek](../vendors/deepseek/README.md)
 - [智谱 AI](../vendors/zhipu/README.md)
 - [阿里云百炼](../vendors/alibaba-bailian/README.md)
+- [xAI](../vendors/xai/README.md)
 - [流式输出格式](../protocols/streaming/README.md)
 
 > 真正难兼容的往往不是 `stream=true` 这个参数，而是事件粒度、结束语义与异常处理。

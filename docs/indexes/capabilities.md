@@ -22,6 +22,7 @@
 - [Cohere](../vendors/cohere/README.md)
 - [Mistral](../vendors/mistral/README.md)
 - [智谱 AI](../vendors/zhipu/README.md)
+- [xAI](../vendors/xai/README.md)
 
 ## Tool Calling
 
@@ -30,6 +31,7 @@
 - [Google Gemini](../vendors/google-gemini/README.md)
 - [智谱 AI](../vendors/zhipu/README.md)
 - [阿里云百炼](../vendors/alibaba-bailian/README.md)
+- [xAI](../vendors/xai/README.md)
 - [工具调用约定](../protocols/tool-calling/README.md)
 
 ## Structured Output
@@ -46,6 +48,7 @@
 - [DeepSeek](../vendors/deepseek/README.md)
 - [智谱 AI](../vendors/zhipu/README.md)
 - [阿里云百炼](../vendors/alibaba-bailian/README.md)
+- [xAI](../vendors/xai/README.md)
 - [流式输出格式](../protocols/streaming/README.md)
 
 ## Multimodal
