@@ -68,6 +68,7 @@ nav:
   - 维护规范: MAINTENANCE.md
   - 索引:
       - 能力索引: indexes/capabilities.md
+      - 兼容性索引: indexes/compatibility.md
   - 厂商:
       - 总览: vendors/README.md
       - OpenAI: vendors/openai/README.md

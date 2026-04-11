@@ -1,20 +1,33 @@
 # 协议卷
 
-这里收录跨厂商或抽象层的协议与规范入口。
+这里收录跨厂商或跨平台的协议、事实标准与接口约定。
 
-适合用来查找：
+这些页面的目标，不是替你解释完所有字段，而是帮助你先分清：**它到底解决什么问题、它和相邻概念的边界在哪里、真正该看的官方出处是哪一份。**
 
-- 官方规范
-- 官方说明页
-- 官方仓库
-- 参考实现
-- 相关文档入口
+## 阅读方式
+
+适合在以下场景使用：
+
+- 你在确认某个协议的官方规范入口
+- 你在比较多个厂商接口时，想先明确抽象层边界
+- 你在做统一封装，需要判断“这是协议问题、兼容问题，还是平台私有能力问题”
 
 ## 卷内目录
 
-- [OpenAI Compatible API](openai-compatible/README.md)
-- [Model Context Protocol (MCP)](mcp/README.md)
-- [Agent2Agent (A2A)](a2a/README.md)
-- [流式输出格式](streaming/README.md)
-- [工具调用约定](tool-calling/README.md)
-- [多模态消息结构](multimodal/README.md)
+- [OpenAI Compatible API](openai-compatible/README.md)  
+  事实上的生态约定，不是严格治理的正式标准。
+
+- [Model Context Protocol (MCP)](mcp/README.md)  
+  关注模型运行时如何接入工具、资源与上下文，而不是模型推理接口本身。
+
+- [Agent2Agent (A2A)](a2a/README.md)  
+  仍待补充，重点关注 Agent 之间的任务与能力协作语义。
+
+- [流式输出格式](streaming/README.md)  
+  看似只是传输细节，实际上最容易暴露兼容层差异。
+
+- [工具调用约定](tool-calling/README.md)  
+  模型提出调用意图，宿主负责执行，这个边界不能混淆。
+
+- [多模态消息结构](multimodal/README.md)  
+  纯文本接口的相似性，常常会在多模态输入结构这里迅速分叉。
