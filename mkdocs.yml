@@ -63,7 +63,7 @@ plugins:
   - search
 
 nav:
-  - 首页: index.md
+  - 首页: home.md
   - 总索引: INDEX.md
   - 维护规范: MAINTENANCE.md
   - 厂商:
