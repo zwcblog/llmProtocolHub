@@ -108,7 +108,7 @@ LLM Protocol Hub 试图解决的，正是这个问题。
 
 ## 使用方式
 
-- 从 `docs/index.md` 进入站点首页
+- 从 `docs/home.md` 进入站点首页
 - 从 `docs/INDEX.md` 进入完整索引
 - 按厂商查入口：`docs/vendors/`
 - 按协议查入口：`docs/protocols/`
