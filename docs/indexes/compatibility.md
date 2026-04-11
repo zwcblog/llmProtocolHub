@@ -7,6 +7,9 @@
 - [OpenAI Compatible API](../protocols/openai-compatible/README.md)
 - [DeepSeek](../vendors/deepseek/README.md)
 - [阿里云百炼](../vendors/alibaba-bailian/README.md)
+- [百度千帆](../vendors/baidu-qianfan/README.md)
+- [腾讯混元](../vendors/tencent-hunyuan/README.md)
+- [火山引擎](../vendors/volcengine/README.md)
 
 > 兼容接口通常足以让应用先跑起来，但真正的差异常常暴露在工具调用、流式、结构化输出与多模态输入层。
 
@@ -38,6 +41,7 @@
 - [OpenAI](../vendors/openai/README.md)
 - [Anthropic](../vendors/anthropic/README.md)
 - [Google Gemini](../vendors/google-gemini/README.md)
+- [MiniMax](../vendors/minimax/README.md)
 - [多模态消息结构](../protocols/multimodal/README.md)
 
 > 纯文本接口的相似性，常常会在多模态输入结构这里被迅速打破。

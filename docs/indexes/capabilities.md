@@ -10,6 +10,10 @@
 - [DeepSeek](../vendors/deepseek/README.md)
 - [智谱 AI](../vendors/zhipu/README.md)
 - [阿里云百炼](../vendors/alibaba-bailian/README.md)
+- [百度千帆](../vendors/baidu-qianfan/README.md)
+- [腾讯混元](../vendors/tencent-hunyuan/README.md)
+- [火山引擎](../vendors/volcengine/README.md)
+- [MiniMax](../vendors/minimax/README.md)
 
 ## Embeddings
 
@@ -49,6 +53,7 @@
 - [OpenAI](../vendors/openai/README.md)
 - [Anthropic](../vendors/anthropic/README.md)
 - [Google Gemini](../vendors/google-gemini/README.md)
+- [MiniMax](../vendors/minimax/README.md)
 - [多模态消息结构](../protocols/multimodal/README.md)
 
 ## Realtime / Live
