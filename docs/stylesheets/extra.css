@@ -153,7 +153,13 @@ select {
 
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  filter: grayscale(1) contrast(1.05);
+  filter: grayscale(1) brightness(0.18) contrast(1.08);
+  opacity: 0.96;
+}
+
+[data-md-color-scheme="slate"] .md-header__button.md-logo img,
+[data-md-color-scheme="slate"] .md-header__button.md-logo svg {
+  filter: grayscale(1) brightness(1.08) contrast(1.04);
   opacity: 0.92;
 }
 
