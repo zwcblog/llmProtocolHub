@@ -1,6 +1,9 @@
-# LLM Protocol Hub
-
-> 把 AI 厂商与协议的官方入口，重新按人能理解的方式编排一遍。
+<div class="book-title-page">
+  <p class="book-kicker">Directory of Official Entrypoints</p>
+  <h1>LLM Protocol Hub</h1>
+  <p class="book-subtitle">把 AI 厂商与协议的官方入口，重新按更克制、更稳定、也更容易抵达的方式编排一遍。</p>
+  <div class="book-intro-note">A quiet index for official docs, references, SDKs, consoles, changelogs, and protocol specs.</div>
+</div>
 
 这不是一套重新发明的 AI 文档，也不是又一份很快会过时的参数摘录。
 
@@ -77,10 +80,25 @@
 
 ## 开始阅读
 
-- [进入厂商卷](vendors/README.md)
-- [进入协议卷](protocols/README.md)
-- [查看完整索引](INDEX.md)
-- [阅读维护规范](MAINTENANCE.md)
+<div class="book-grid">
+
+- **进入厂商卷**  
+  查看各家模型平台的官网、文档、API Reference、SDK、控制台与平台边界。  
+  [开始阅读](vendors/README.md)
+
+- **进入协议卷**  
+  查看 MCP、A2A、OpenAI Compatible、流式、工具调用与多模态结构的官方入口。  
+  [开始阅读](protocols/README.md)
+
+- **查看完整索引**  
+  从总目录进入，用统一结构快速定位厂商、协议与主题页面。  
+  [查看索引](INDEX.md)
+
+- **阅读维护规范**  
+  了解这个站点为什么只做入口整理，以及页面维护遵循什么原则。  
+  [查看规范](MAINTENANCE.md)
+
+</div>
 
 ---
 
