@@ -21,11 +21,11 @@
   --sidebar-primary-width: 14rem;
   --sidebar-secondary-width: 10.6rem;
 
-  --font-size-body: 0.9rem;
-  --line-height-body: 1.92;
-  --font-size-h1: clamp(2.6rem, 4.6vw, 4.4rem);
-  --font-size-h2: 0.88rem;
-  --font-size-h3: 0.92rem;
+  --font-size-body: 0.88rem;
+  --line-height-body: 1.88;
+  --font-size-h1: clamp(2.35rem, 4.1vw, 4rem);
+  --font-size-h2: 0.84rem;
+  --font-size-h3: 0.9rem;
 
   --radius-pill: 999px;
   --transition-fast: 140ms ease;
