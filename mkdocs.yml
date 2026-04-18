@@ -69,6 +69,7 @@ nav:
   - 索引:
       - 能力索引: indexes/capabilities.md
       - 兼容性索引: indexes/compatibility.md
+      - 协议差异对比: indexes/protocol-diff-matrix.md
       - 阅读路径: indexes/reading-path.md
       - 最近更新: indexes/recent-updates.md
   - 厂商:
